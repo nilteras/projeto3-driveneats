@@ -24,21 +24,21 @@
     <div class="container">
     <h2>Primeiro, seu prato</h2>
     <div class="menu-prato">
-    <div class="prato">
+    <div id="carne" class="prato" onclick="escolherCarne()">
         <img src="./imagens/carne-sol.png" alt="">
         <h3>Carne de Sol</h3>
         <p class="acompanhamento">Um pouco de batata</p>
         <p class="acompanhamento">Um pouco de salada</p>
         <p class="preco">R$ 29,90</p>
     </div>
-    <div class="prato">
+    <div id="frango" class="prato" onclick="escolherFrango()">
         <img src="./imagens/frango_yin_yang.png" alt="">
         <h3>Frango Yin Yang</h3>
         <p class="acompanhamento">Um pouco de batata</p>
         <p class="acompanhamento">Um pouco de salada</p>
         <p class="preco">R$ 22,90</p>
     </div>
-    <div class="prato">
+    <div id="peixe" class="prato" onclick="escolherPeixe()">
         <img src="./imagens/peixe.png" alt="">
         <h3>Peixe Assado</h3>
         <p class="acompanhamento">Um pouco de arroz</p>
@@ -48,19 +48,19 @@
 </div>
 <h2>Agora, sua bebida</h2>
 <div class="menu-bebida">
-    <div class="bebida">
+    <div id="coca" class="bebida" onclick="escolherCoca()">
         <img src="./imagens/coca-cola.png" alt="">
         <h3>Coca-Cola</h3>
         <p class="acompanhamento">350ml</p>
         <p class="preco">R$ 6,90</p>
     </div>
-    <div class="bebida">
+    <div id="suco" class="bebida" onclick="escolherSuco()">
         <img src="./imagens/suco.png" alt="">
         <h3>Suco de Laranja</h3>
         <p class="acompanhamento">400ml</p>
         <p class="preco">R$ 5,00</p>
     </div>
-    <div class="bebida">
+    <div id="agua" class="bebida" onclick="escolherAgua()">
         <img src="./imagens/agua.png" alt="">
         <h3>Água Mineral</h3>
         <p class="acompanhamento">500ml</p>
@@ -70,19 +70,19 @@
 </div>
 <h2>Por fim, sua sobremesa</h2>
 <div class="menu-sobremesa">
-    <div class="sobremesa">
+    <div id="sundae" class="sobremesa" onclick="escolherSundae()">
         <img src="./imagens/sundae.png" alt="">
         <h3>Sundae</h3>
         <p class="acompanhamento">Sundae com calda</p>
         <p class="preco">R$ 7,90</p>
     </div>
-    <div class="sobremesa">
+    <div id="mousse" class="sobremesa" onclick="escolherMousse()">
         <img src="./imagens/mousse.png" alt="">
         <h3>Mousse</h3>
         <p class="acompanhamento">Mousse de Maracujá</p>
         <p class="preco">R$ 5,90</p>
     </div>
-    <div class="sobremesa">
+    <div id="pudim" class="sobremesa" onclick="escolherPudim()">
         <img src="./imagens/pudim.png" alt="">
         <h3>Pudin</h3>
         <p class="acompanhamento">Apenas pudim</p>
@@ -96,5 +96,6 @@
         <h4>para fechar o pedido</h4>
     </div>
 </div>
+<script src="./script.js"></script>
 </body>
 </html>
