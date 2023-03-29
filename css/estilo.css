@@ -152,7 +152,34 @@ border-radius: 4px;
     height: 92px;
     background: #FFFFFF;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 position: fixed;
 bottom: 0;
 left: 0;
+}
+.finalizar {
+    width: 364px;
+height: 61px;
+
+background: #CBCBCB;
+border-radius: 50px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+h4 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.018em;
+
+color: #FFFFFF;
 }
