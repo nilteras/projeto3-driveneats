@@ -186,3 +186,30 @@ letter-spacing: 0.018em;
 
 color: #FFFFFF;
 }
+
+.fechar-pedido {
+    width: 364px;
+    height: 61px;
+    
+    background: #32B72F;
+    border-radius: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.018em;
+    
+    color: #FFFFFF; 
+}
+.escondido {
+    display: none;
+}
