@@ -24,7 +24,7 @@
     <div class="container">
     <h2>Primeiro, seu prato</h2>
     <div class="menu-prato">
-    <div class="carne" onclick="escolherPrato(this, '.carne')">
+    <div data-test="dish" class="carne" onclick="escolherPrato(this, '.carne')">
         <img src="./imagens/carne-sol.png" alt="">
         <div class="titulo">Carne de Sol</div>
         <p class="acompanhamento">Um pouco de batata</p>
@@ -34,20 +34,20 @@
             <ion-icon name="checkmark-circle"></ion-icon>
         </div>
     </div>
-    <div class="frango" onclick="escolherPrato(this, '.frango')">
+    <div data-test="dish" class="frango" onclick="escolherPrato(this, '.frango')">
         <img src="./imagens/frango_yin_yang.png" alt="">
         <div class="titulo">Frango Yin Yang</div>
         <p class="acompanhamento">Um pouco de batata</p>
         <p class="acompanhamento">Um pouco de salada</p>
-        <p class="preco">R$ 22,90</p>
+        <div class="preco">R$ 22,90</div>
         <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
     </div>
-    <div class="peixe" onclick="escolherPrato(this, '.peixe')">
+    <div data-test="dish" class="peixe" onclick="escolherPrato(this, '.peixe')">
         <img src="./imagens/peixe.png" alt="">
         <div class="titulo">Peixe Assado</div>
         <p class="acompanhamento">Um pouco de arroz</p>
         <p class="acompanhamento">Um pouco de salada</p>
-        <p class="preco">R$ 27,90</p>
+        <div class="preco">R$ 27,90</div>
         <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
     </div>
 </div>
@@ -57,21 +57,21 @@
         <img src="./imagens/coca-cola.png" alt="">
         <div class="titulo">Coca-Cola</div>
         <p class="acompanhamento">350ml</p>
-        <p class="preco">R$ 6,90</p>
+        <div class="preco">R$ 6,90</div>
         <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
     </div>
     <div class="suco" onclick="escolherBebida(this, '.suco')">
         <img src="./imagens/suco.png" alt="">
         <div class="titulo">Suco de Laranja</div>
         <p class="acompanhamento">400ml</p>
-        <p class="preco">R$ 5,00</p>
+        <div class="preco">R$ 5,00</div>
         <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
     </div>
     <div class="agua" onclick="escolherBebida(this, '.agua')">
         <img src="./imagens/agua.png" alt="">
         <div class="titulo">Água Mineral</div>
         <p class="acompanhamento">500ml</p>
-        <p class="preco">R$ 3,90</p>
+        <div class="preco">R$ 3,90</div>
         <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
     </div>
 
@@ -82,21 +82,21 @@
         <img src="./imagens/sundae.png" alt="">
         <div class="titulo">Sundae</div>
         <p class="acompanhamento">Sundae com calda</p>
-        <p class="preco">R$ 7,90</p>
+        <div class="preco">R$ 7,90</div>
         <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
     </div>
     <div class="mousse" onclick="escolherSobremesa(this, '.mousse')">
         <img src="./imagens/mousse.png" alt="">
         <div class="titulo">Mousse</div>
         <p class="acompanhamento">Mousse de Maracujá</p>
-        <p class="preco">R$ 5,90</p>
+        <div class="preco">R$ 5,90</div>
         <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
     </div>
     <div class="pudim" onclick="escolherSobremesa(this, '.pudim')">
         <img src="./imagens/pudim.png" alt="">
         <div class="titulo">Pudin</div>
         <p class="acompanhamento">Apenas pudim</p>
-        <p class="preco">R$ 6,50</p>
+        <div class="preco">R$ 6,50</div>
         <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
     </div>
 </div>
@@ -106,7 +106,7 @@
         <h4>Selecione os 3 itens</h4>
         <h4>para fechar o pedido</h4>
     </div> 
-    <div class="fechar-pedido escondido">
+    <div class="fechar-pedido escondido" onclick="fecharPedido()">
         <h5>Fechar Pedido</h5>
     </div>
 </div>

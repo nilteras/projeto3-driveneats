@@ -227,6 +227,8 @@ ion-icon {
     justify-content: center;
     align-items: center;
 
+    cursor: pointer;
+
 }
 h5 {
     font-family: 'Roboto';
