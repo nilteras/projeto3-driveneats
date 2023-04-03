@@ -4,8 +4,8 @@
 .body {
    
     font-family: 'Righteous', cursive;
-font-family: 'Roboto', sans-serif;
-background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
 }
 .container {
     width: 414px;
@@ -44,33 +44,33 @@ background-color: #E5E5E5;
 }
 .titulo-topo {
     font-family: 'Righteous';
-font-style: normal;
-font-weight: 400;
-font-size: 44px;
-line-height: 55px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
 
 color: #FFFFFF
 }
 .subtitulo {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 h2 {
     font-family: 'Righteous';
-font-style: normal;
-font-weight: 400;
-font-size: 26px;
-line-height: 32px;
-letter-spacing: 0.018em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
 
-color: #333333;
-margin-left: 19px;
-margin-top: 27px;
+    color: #333333;
+    margin-left: 19px;
+    margin-top: 27px;
 
 }
 .menu-prato {
@@ -81,50 +81,49 @@ margin-top: 27px;
 }
 .carne, .frango, .peixe {
     width: 172px;
-height: 216px;
-margin-left: 16px;
-background: #FFFFFF;
-box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-border-radius: 9px;
-padding: 12px 8px 7px 8px;
-border: 6px solid white;
+    height: 216px;
+    margin-left: 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    padding: 12px 8px 7px 8px;
+    border: 6px solid white;
 
-position: relative;
+    position: relative;
 }
 img {
     width: 144px;
-height: 87px;
-border-radius: 4px;
+    height: 87px;
+    border-radius: 4px;
 }
 .titulo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-color: #333333;
-
-margin-top: 8px;
-margin-bottom: 4px;
+    margin-top: 8px;
+    margin-bottom: 4px;
 }
 .acompanhamento {
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 18px;
-color: #A6A6A6;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A6A6A6;
 }
 .preco {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-color: #000000;
-margin-top: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 5px;
 }
 .menu-bebida {
     display: flex;
@@ -135,15 +134,15 @@ margin-top: 5px;
 }
 .coca, .suco, .agua {
     
-width: 172px;
-height: 202px;
-margin-left: 16px;
-background: #ffffff;
-box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-border-radius: 9px;
-padding: 12px 7px 10px 9px;
-border: 6px solid white;
-position: relative;
+    width: 172px;
+    height: 202px;
+    margin-left: 16px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    padding: 12px 7px 10px 9px;
+    border: 6px solid white;
+    position: relative;
 }
 .selecionado {
     border-color: #32B72F;
@@ -160,23 +159,21 @@ position: relative;
 }
 .sundae, .mousse, .pudim {
     
-width: 172px;
-height: 197px;
-margin-left: 16px;
+    width: 172px;
+    height: 197px;
+    margin-left: 16px;
 
-background: #FFFFFF;
-box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
-border-radius: 9px;
-padding: 12px 7px 10px 9px;
-border: 6px solid white;
-position: relative;
-
-
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    padding: 12px 7px 10px 9px;
+    border: 6px solid white;
+    position: relative;
 }
 .sobremesa img {
     width: 144px;
-height: 82px;
-border-radius: 4px;
+    height: 82px;
+    border-radius: 4px;
 }
 .rodape {
     width: 414px;
@@ -187,33 +184,33 @@ border-radius: 4px;
     justify-content: center;
     align-items: center;
 
-position: fixed;
-bottom: 0;
-left: 0;
-z-index: 1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
 }
 .finalizar {
     width: 364px;
-height: 61px;
+    height: 61px;
 
-background: #CBCBCB;
-border-radius: 50px;
+    background: #CBCBCB;
+    border-radius: 50px;
 
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 h4 {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-letter-spacing: 0.018em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 ion-icon {
     width: 15px;
@@ -269,25 +266,24 @@ h5 {
 
 .titulo-pedido {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 26px;
-text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .nome, .preco-final, .total {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 26px;
-margin-top: 13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 13px;
 
-
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 .total {
    font-weight: 700;
@@ -301,24 +297,22 @@ color: #FFFFFF;
 
 .confirmar {
     width: 329px;
-height: 52px;
-background: #FFFFFF;
-border-radius: 100px;
-border-color: #ffffff;
+    height: 52px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    
 
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 26px;
-
-
-color: #50D074;
-cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #50D074;
+    cursor: pointer;
 
 }
 .cancelar {
@@ -330,10 +324,10 @@ cursor: pointer;
     align-items: center;
 
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 23px;
-color: #FFFFFF;
-cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    cursor: pointer;
 }

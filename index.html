@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    
     <title>DrivenEats</title>
 
 </head>
@@ -25,92 +26,92 @@
     <div class="menu-prato">
     <div data-test="dish" class="carne" onclick="escolherPrato(this, '.carne')">
         <img src="./imagens/carne-sol.png" alt="">
-        <div class="titulo">Carne de Sol</div>
+        <div data-test="item-name" class="titulo">Carne de Sol</div>
         <p class="acompanhamento">Um pouco de batata</p>
         <p class="acompanhamento">Um pouco de salada</p>
-        <div class="preco">R$ 29,90</div>
+        <div data-test="item-price" class="preco">R$ 29,90</div>
         <div class="icone">
             <ion-icon name="checkmark-circle"></ion-icon>
         </div>
     </div>
     <div data-test="dish" class="frango" onclick="escolherPrato(this, '.frango')">
         <img src="./imagens/frango_yin_yang.png" alt="">
-        <div class="titulo">Frango Yin Yang</div>
+        <div data-test="item-name" class="titulo">Frango Yin Yang</div>
         <p class="acompanhamento">Um pouco de batata</p>
         <p class="acompanhamento">Um pouco de salada</p>
-        <div class="preco">R$ 22,90</div>
+        <div data-test="item-price" class="preco">R$ 22,90</div>
         <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
     </div>
     <div data-test="dish" class="peixe" onclick="escolherPrato(this, '.peixe')">
         <img src="./imagens/peixe.png" alt="">
-        <div class="titulo">Peixe Assado</div>
+        <div data-test="item-name" class="titulo">Peixe Assado</div>
         <p class="acompanhamento">Um pouco de arroz</p>
         <p class="acompanhamento">Um pouco de salada</p>
-        <div class="preco">R$ 27,90</div>
+        <div data-test="item-price" class="preco">R$ 27,90</div>
         <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
     </div>
 </div>
 <h2>Agora, sua bebida</h2>
 <div class="menu-bebida">
-    <div class="coca" onclick="escolherBebida(this, '.coca')">
+    <div data-test="drink" class="coca" onclick="escolherBebida(this, '.coca')">
         <img src="./imagens/coca-cola.png" alt="">
-        <div class="titulo">Coca-Cola</div>
+        <div data-test="item-name" class="titulo">Coca-Cola</div>
         <p class="acompanhamento">350ml</p>
-        <div class="preco">R$ 6,90</div>
+        <div data-test="item-price" class="preco">R$ 6,90</div>
         <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
     </div>
-    <div class="suco" onclick="escolherBebida(this, '.suco')">
+    <div data-test="drink" class="suco" onclick="escolherBebida(this, '.suco')">
         <img src="./imagens/suco.png" alt="">
-        <div class="titulo">Suco de Laranja</div>
+        <div data-test="item-name" class="titulo">Suco de Laranja</div>
         <p class="acompanhamento">400ml</p>
-        <div class="preco">R$ 5,00</div>
+        <div data-test="item-price" class="preco">R$ 5,00</div>
         <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
     </div>
-    <div class="agua" onclick="escolherBebida(this, '.agua')">
+    <div data-test="drink" class="agua" onclick="escolherBebida(this, '.agua')">
         <img src="./imagens/agua.png" alt="">
-        <div class="titulo">Água Mineral</div>
+        <div data-test="item-name" class="titulo">Água Mineral</div>
         <p class="acompanhamento">500ml</p>
-        <div class="preco">R$ 3,90</div>
+        <div data-test="item-price" class="preco">R$ 3,90</div>
         <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
     </div>
 
 </div>
 <h2>Por fim, sua sobremesa</h2>
 <div class="menu-sobremesa">
-    <div class="sundae" onclick="escolherSobremesa(this, '.sundae')">
+    <div data-test="dessert" class="sundae" onclick="escolherSobremesa(this, '.sundae')">
         <img src="./imagens/sundae.png" alt="">
-        <div class="titulo">Sundae</div>
+        <div data-test="item-name" class="titulo">Sundae</div>
         <p class="acompanhamento">Sundae com calda</p>
-        <div class="preco">R$ 7,90</div>
+        <div data-test="item-price" class="preco">R$ 7,90</div>
         <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
     </div>
-    <div class="mousse" onclick="escolherSobremesa(this, '.mousse')">
+    <div data-test="dessert" class="mousse" onclick="escolherSobremesa(this, '.mousse')">
         <img src="./imagens/mousse.png" alt="">
-        <div class="titulo">Mousse</div>
+        <div data-test="item-name" class="titulo">Mousse</div>
         <p class="acompanhamento">Mousse de Maracujá</p>
-        <div class="preco">R$ 5,90</div>
+        <div data-test="item-price" class="preco">R$ 5,90</div>
         <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
     </div>
-    <div class="pudim" onclick="escolherSobremesa(this, '.pudim')">
+    <div data-test="dessert" class="pudim" onclick="escolherSobremesa(this, '.pudim')">
         <img src="./imagens/pudim.png" alt="">
-        <div class="titulo">Pudin</div>
+        <div data-test="item-name" class="titulo">Pudin</div>
         <p class="acompanhamento">Apenas pudim</p>
-        <div class="preco">R$ 6,50</div>
+        <div data-test="item-price" class="preco">R$ 6,50</div>
         <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
     </div>
 </div>
 </div>
 <div class="rodape">
-   <div class="finalizar" onclick="verificaSelecao()">
+   <div data-test="order-btn" class="finalizar" onclick="verificaSelecao()">
         <h4>Selecione os 3 itens</h4>
         <h4>para fechar o pedido</h4>
     </div> 
-    <div class="fechar-pedido escondido" onclick="fecharPedido()">
+    <div data-test="order-btn" class="fechar-pedido escondido" onclick="fecharPedido()">
         <h5>Fechar Pedido</h5>
     </div>
 </div>
 <div class="container-final escondido">
-    <div class="confirmar-pedido">
+    <div data-test="confirm-order-modal" class="confirmar-pedido">
         <div class="titulo-pedido">Confirme seu Pedido</div><br>
         <div class="prato">
             <div class="nome">Carne de Sol</div>
@@ -128,11 +129,10 @@
             <div>TOTAL</div>
             <div class="preco-total">R$ **</div>
         </div>
-        <div class="confirmar" onclick="mandarParaWhats()">Tudo certo, pode pedir!</div>
-        <div class="cancelar" onclick="cancelar()">Cancelar</div>
+        <div data-test="confirm-order-btn" class="confirmar" onclick="mandarParaWhats()">Tudo certo, pode pedir!</div>
+        <div data-test="cancel-order-btn" class="cancelar" onclick="cancelar()">Cancelar</div>
     </div>
 </div>
-
 
 <script src="./script.js"></script>
 <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
