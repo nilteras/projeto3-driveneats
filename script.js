@@ -5,6 +5,7 @@ let precoPrato;
 let precoBebida;
 let precoSobremesa;
 let valorTotal;
+let relacaoPedido;
 
 function escolherPrato(prato, buscaTitulo){
      
@@ -92,16 +93,51 @@ function verificaSelecao(){
 }
 
 function fecharPedido(){
+
+    const nomeCliente = prompt("informe seu nome: ");
+    const endereco = prompt("Informe seu endereço: ");
+
     valorTotal = parseFloat(precoPrato) + parseFloat(precoBebida) + parseFloat(precoSobremesa);
-    let relacaoPedido = `Olá, gostaria de fazer o pedido:
+    relacaoPedido = `Olá, gostaria de fazer o pedido:
     - Prato: ${conteudoPrato}
     - Bebida: ${conteudoBebida}
     - Sobremesa: ${conteudSobremesa}
-    Total: R$ ${valorTotal}`;
+    Total: R$ ${valorTotal.toFixed(2)}
+    
+    Nome: ${nomeCliente}
+    Endereço: ${endereco}`;
+    
+    const novaTela = document.querySelector('.container-final');
+    novaTela.classList.remove('escondido');
 
-    alert(relacaoPedido);
+    const nomePrato = document.querySelector('.prato .nome');
+    const precoEscolhido = document.querySelector('.prato .preco-final');
+    nomePrato.innerHTML = conteudoPrato;
+    precoPrato = precoPrato.replace('.',',');
+    precoEscolhido.innerHTML = precoPrato;
     
-    
+    const nomeBebida = document.querySelector('.bebida .nome');
+    const bebidaEscolhida = document.querySelector('.bebida .preco-final');
+    nomeBebida.innerHTML = conteudoBebida;
+    precoBebida = precoBebida.replace('.',',');
+    bebidaEscolhida.innerHTML = precoBebida;
 
+    const nomeSobremesa = document.querySelector('.sobremesa .nome');
+    const sobremesaEscolhida = document.querySelector('.sobremesa .preco-final');
+    nomeSobremesa.innerHTML = conteudSobremesa;
+    precoSobremesa = precoSobremesa.replace('.',',');
+    sobremesaEscolhida.innerHTML = precoSobremesa;
+
+    const valorFinal = document.querySelector('.total .preco-total');
+    valorFinal.innerHTML = ('R$ '+valorTotal.toFixed(2));
+}
+
+function mandarParaWhats(){
     
+    const msgWhats = encodeURIComponent(relacaoPedido);
+    window.open(`https://wa.me/5561985681998?text=${msgWhats}`);
+}
+function cancelar(){
+    const novaTela = document.querySelector('.container-final');
+    novaTela.classList.add('escondido');
 }

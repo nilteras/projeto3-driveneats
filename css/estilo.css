@@ -14,6 +14,20 @@ background-color: #E5E5E5;
     padding-top: 4px;
     margin-bottom: 92px;
 }
+.container-final {
+    width: 414px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 19px;
+}
 .topo {
     width: 414px;
     height: 92px;
@@ -242,4 +256,84 @@ h5 {
 }
 .escondido {
     display: none;
+}
+.confirmar-pedido {
+    width: 377px;
+    height: 353px;
+    background-color: #50D074;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    padding: 26px;
+
+}
+
+.titulo-pedido {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.nome, .preco-final, .total {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+margin-top: 13px;
+
+
+color: #FFFFFF;
+}
+.total {
+   font-weight: 700;
+   margin-bottom: 24px; 
+}
+.prato, .bebida, .sobremesa, .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.confirmar {
+    width: 329px;
+height: 52px;
+background: #FFFFFF;
+border-radius: 100px;
+border-color: #ffffff;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+
+
+color: #50D074;
+cursor: pointer;
+
+}
+.cancelar {
+    width: 333px;
+    height: 52px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+cursor: pointer;
 }

@@ -15,13 +15,12 @@
     <title>DrivenEats</title>
 
 </head>
-<body>
-    
-    <div class="topo">
-        <p class="titulo-topo">DrivenEats</p>
-        <p class="subtitulo">Sua comida em 6 minutos</p>
-    </div>
-    <div class="container">
+<body>    
+     <div class="container">
+        <div class="topo">
+            <p class="titulo-topo">DrivenEats</p>
+            <p class="subtitulo">Sua comida em 6 minutos</p>
+        </div>
     <h2>Primeiro, seu prato</h2>
     <div class="menu-prato">
     <div data-test="dish" class="carne" onclick="escolherPrato(this, '.carne')">
@@ -110,6 +109,31 @@
         <h5>Fechar Pedido</h5>
     </div>
 </div>
+<div class="container-final escondido">
+    <div class="confirmar-pedido">
+        <div class="titulo-pedido">Confirme seu Pedido</div><br>
+        <div class="prato">
+            <div class="nome">Carne de Sol</div>
+            <div class="preco-final">29,90</div>
+        </div>
+        <div class="bebida">
+            <div class="nome">Coca-Cola</div>
+            <div class="preco-final">6,90</div>
+        </div>
+        <div class="sobremesa">
+            <div class="nome">Sundae</div>
+            <div class="preco-final">7,90</div>
+        </div>
+        <div class="total">
+            <div>TOTAL</div>
+            <div class="preco-total">R$ **</div>
+        </div>
+        <div class="confirmar" onclick="mandarParaWhats()">Tudo certo, pode pedir!</div>
+        <div class="cancelar" onclick="cancelar()">Cancelar</div>
+    </div>
+</div>
+
+
 <script src="./script.js"></script>
 <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
